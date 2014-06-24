@@ -1,0 +1,1 @@
+void mkdir(char* path, char* name);

@@ -1,0 +1,23 @@
+The operating system consists of the following files:
+
+bootload.asm	the bootloader source
+bootload.sh	script to assemble the bootloader
+compileOS.sh	script to compile the operating system
+dir.img		image of the initial directory sector
+initialize.sh	script to create an empty file system
+kernel.asm	kernel assembly source routines
+kernel.c	kernel source
+kernel.sh	script to compile the kernel
+lib.asm		assembly library functions for user progs & shell
+lib.c		library functions for user progs & shell
+lib.h		library header for user progs & shell
+loadFile.c	source for program to load file into file system
+loadProgram.sh	script to compile a program and load it into the system
+map.img		image of the initial map sector
+shell.c		the shell source
+shell.sh	script to compile the shell
+
+The following utilities are required to compile the operating system:
+nasm
+gcc
+bcc, as86, ld86
